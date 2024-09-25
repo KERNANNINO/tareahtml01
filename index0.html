@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Plantas</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #e3f2fd; 
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2e7d32;
+      padding: 20px 0;
+      background-color: #f8bbd0; 
+      border: 5px solid black; 
+      margin: 20px auto; 
+      text-transform: uppercase; 
+      width: 50%; 
+    }
+
+    .resumen-cuadro {
+      background-color: #f8bbd0; 
+      padding: 20px;
+      border: 5px solid black; 
+      text-align: center;
+      font-size: 1.2em;
+      color: #424242;
+      max-width: 800px;
+      margin: 20px auto; 
+    }
+
+    .contenedor {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+
+    .caja {
+      width: 250px;
+      height: 250px; 
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 1em;
+      color: black;
+    }
+
+    .caja p strong {
+      color: white; 
+    }
+
+    .suculenta {
+      background-color: #4caf50;
+    }
+
+    .felicia {
+      background-color: #42a5f5;
+    }
+
+    .lavanda {
+      background-color: #7e57c2;
+    }
+
+    .ficus {
+      background-color: #388e3c;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Tienda de Plantas</h1>
+
+  <div class="resumen-cuadro">
+    Las plantas no solo embellecen nuestro entorno, sino que también purifican el aire, mejoran el estado de ánimo y promueven un ambiente saludable. Aquí encontrarás una selección de plantas ideales para decorar tu hogar u oficina.
+  </div>
+  <div class="contenedor">
+    <div class="caja suculenta">
+      <p><strong>Suculenta</strong></p>
+      <p>Resistente y fácil de cuidar. Ideal para interiores.</p>
+    </div>
+
+    <div class="caja felicia">
+      <p><strong>Felicia Azul</strong></p>
+      <p>Pequeñas flores azules, perfectas para jardines exteriores.</p>
+    </div>
+
+    <div class="caja lavanda">
+      <p><strong>Lavanda</strong></p>
+      <p>Famosa por su aroma y sus flores de color púrpura.</p>
+    </div>
+
+    <div class="caja ficus">
+      <p><strong>Ficus</strong></p>
+      <p>Planta de interior que requiere poca luz. Perfecta para oficinas.</p>
+    </div>
+  </div>
+
+</body>
+</html>
