@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ONE PIECE</title>
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: #0d1b2a;
+        color: #f9d342;
+        font-family: Monaco;
+      }
+
+      header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        align-items: center;
+        width: 90%;
+        height: 20vh;
+        margin: 50px auto 0;
+        padding-top: 5px;
+      }
+
+      header h1 {
+        color: #f94144;
+        font-size: 60px;
+        text-align: center;
+      }
+
+      .logo {
+        grid-column: 1 / 2;
+        width: 80%;
+        height: 155px;
+        padding-left: 5px;
+      }
+
+      nav {
+        grid-column: 3 / 4;
+        display: grid;
+        grid-auto-flow: column;
+        grid-gap: 40px;
+        align-items: center;
+        justify-content: end;
+      }
+
+      nav a {
+        color: #f9d342;
+        font-size: 25px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: color 1s, font-size 0.3s;
+      }
+
+      nav a:hover {
+        color: #f94144;
+        font-size: 30px;
+      }
+
+      .caja {
+        background-color: #001f54;
+        padding: 20px;
+        margin: 10px auto;
+        width: 90%;
+        border-radius: 8px;
+      }
+
+      h2 {
+        font-size: 35px;
+        color: #f94144;
+      }
+
+      p {
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-align: justify;
+        font-size: 30px;
+        color: #f9d342;
+      }
+
+      .pie {
+        background-color: #f94144;
+        margin: 10px auto;
+        padding: 10px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 800;
+        width: 90%;
+        color: white;
+      }
+
+      .center {
+        display: block;
+        margin: 10px auto;
+        width: 50%;
+        border: 2px solid #f94144;
+        border-radius: 8px;
+      }
+
+      
+      .character {
+        display: inline-block;
+        width: 45%;
+        margin: 2%;
+        text-align: center;
+      }
+
+      .character img {
+        width: 100%;
+        border-radius: 8px;
+        border: 2px solid #f94144;
+      }
+
+      .character p {
+        font-size: 25px;
+        color: #f9d342;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="https://www.freepnglogos.com/uploads/one-piece-logo-18.png" width="200" height="150" />
+      </div>
+      <h1>ONE PIECE</h1>
+      <nav>
+        <a href="#ini">INICIO</a>
+        <a href="#per">PERSONAJES</a>
+        <a href="#tra">TRAILER</a>
+      </nav>
+    </header>
+
+    <section class="caja">
+      <article>
+        <a id="ini"></a>
+        <h2>INICIO</h2>
+        <p>
+          <strong>One Piece</strong> es un anime y manga creado por Eiichiro Oda. La historia sigue
+          las aventuras de Monkey D. Luffy, un joven pirata que sueña con encontrar el
+          legendario tesoro conocido como "One Piece" para convertirse en el Rey de los
+          Piratas. A lo largo de su viaje, Luffy recluta a un variado grupo de nakamas
+          (compañeros) y enfrentan desafíos de todo tipo, como la Marina, otros piratas
+          poderosos, y criaturas fantásticas. El manga ha roto varios récords y ha cautivado
+          a millones de fans por su combinación de aventura, humor y valores sobre la
+          amistad y la perseverancia.
+        </p>
+      </article>
+
+      <article>
+        <a id="per"></a>
+        <h2>PERSONAJES</h2>
+
+        
+        <div class="character">
+          <img src="https://i.pinimg.com/736x/3e/7d/71/3e7d7132c0d602d7885de3ae726ccf98.jpg" width="50" height="300" />
+          <p><strong>Monkey D. Luffy</strong>: El protagonista, un pirata con poderes de goma tras comer la fruta del diablo.</p>
+        </div>
+
+        
+        <div class="character">
+          <img src="https://i.pinimg.com/originals/90/55/d2/9055d2b7c3e74ee2c1647108e661ab2d.jpg" width="50" height="300" />
+          <p><strong>Roronoa Zoro</strong>: Espadachín experto que sueña con ser el mejor del mundo. Leal nakama de Luffy.</p>
+        </div>
+
+        
+        <div class="character">
+          <img src="https://i.pinimg.com/736x/0d/56/ea/0d56ea9376613edaa29666ae195e4073.jpg" width="50" height="300" />
+          <p><strong>Nami</strong>: La navegante del barco. Es inteligente y tiene un gran sentido del clima y la cartografía.</p>
+        </div>
+
+        
+        <div class="character">
+          <img src="https://i.pinimg.com/736x/8a/d9/f8/8ad9f8400a8bf8221aee075cd38bffa1.jpg" width="50" height="300"/>
+          <p><strong>Sanji</strong>: El cocinero del barco. Es un hábil luchador y tiene un profundo respeto por las mujeres.</p>
+        </div>
+
+    
+        <div class="character">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUH0uHiMSV2Iw5CcJ9VLwkOfp6jLPKraoECw&s" width="50" height="300" />
+          <p><strong>Tony Tony Chopper</strong>: El médico del barco. Es una adorable reno con habilidades humanas tras comer una fruta del diablo.</p>
+        </div>
+      </article>
+
+      <article>
+        <a id="tra"></a>
+        <h2>TRAILER</h2>
+        <p>
+          La adaptación en live-action de <strong>One Piece</strong> fue un proyecto ambicioso que tardó
+          varios años en materializarse. El proceso de desarrollo incluyó una estrecha
+          colaboración entre Eiichiro Oda, el creador de la obra original, y el equipo de
+          producción, para asegurarse de que la esencia del manga y anime se mantuviera
+          fiel. Desde la elección de los actores, pasando por los efectos visuales para
+          recrear los poderes de las frutas del diablo, hasta la construcción de sets
+          realistas de barcos y islas, cada detalle fue cuidadosamente elaborado. El
+          resultado fue un trailer que emocionó a los fans, mostrando un balance entre
+          el mundo ficticio de One Piece y la interpretación realista.
+        </p>
+        <iframe
+          width="453"
+          height="280"
+          src="https://www.youtube.com/embed/sSovEWQGTwg"
+          title="One Piece: La Historia de LUFFY 🔶 | La vida de Monkey D. Luffy: Parte 1"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+          class="center"
+        ></iframe>
+      </article>
+    </section>
+
+    <footer class="pie">
+      <p>DERECHOS RESERVADOS</p>
+    </footer>
+  </body>
+</html>
